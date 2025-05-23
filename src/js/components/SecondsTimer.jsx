@@ -6,7 +6,7 @@ const SecondsTimer = ({ value }) => {
     <div className="secondstimer">
       <div className="timer-content">
         {value === "icon" ? (
-          <i className="fa-regular fa-clock fa-2xl"></i>
+          <i className="fa-regular fa-clock fa-spin fa-1xl"></i>
         ) : (
           <span>{value}</span>
         )}
